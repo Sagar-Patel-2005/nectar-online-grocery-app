@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_nectar_ui_project/views/phoneNumber/phone-number_screen.dart';
 import 'package:new_nectar_ui_project/widgets/commonWidgets/common_btn.dart';
 
 class SignInScreen extends StatelessWidget {
@@ -33,6 +34,9 @@ class SignInScreen extends StatelessWidget {
 
                     SizedBox(height: 20,),
                     TextField(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => PhoneNumberScreen(),));
+                      },
                       keyboardType: TextInputType.phone,
                       decoration: InputDecoration(
                         // hintText: "Enter mobile number",
