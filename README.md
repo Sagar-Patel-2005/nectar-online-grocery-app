@@ -1,17 +1,17 @@
-# new_nectar_ui_project
+# Nectar Online Grocery App
 
-A new Flutter project.
+A Flutter-based online grocery application inspired by the Nectar Figma design.
 
-## Getting Started
+## Features
+- Login
+- Sign Up
+- OTP Verification
+- Location Selection
+- Product Listing
+- Cart Management
+- Favorites
+- Checkout
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+- Flutter
+- Dart
