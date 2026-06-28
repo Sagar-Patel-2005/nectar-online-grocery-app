@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_nectar_ui_project/views/sign-in/sign-in_screen.dart';
+import 'package:new_nectar_ui_project/views/sign-in/login_screen.dart';
 import 'package:new_nectar_ui_project/views/splash/splash_screen.dart';
 
 import '../../views/welcome/welcome_screen.dart';
