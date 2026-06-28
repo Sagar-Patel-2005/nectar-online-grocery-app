@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_nectar_ui_project/views/sign-in/sign-in_screen.dart';
+import 'package:new_nectar_ui_project/views/sign-in/login_screen.dart';
 import 'package:new_nectar_ui_project/widgets/commonWidgets/common_btn.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -74,7 +74,7 @@ class WelcomeScreen extends StatelessWidget {
 
                   // Get Started Button
                   CommonButton(text: "Get Started", onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => SignInScreen(),));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => LoginScreen(),));
                   })
                   // const SizedBox(height: 60), // Space at the bottom
                 ],

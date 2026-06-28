@@ -62,6 +62,7 @@ flutter:
     - assets/images/signIn_screen_img/
     - assets/images/splash_screen_img/
     - assets/images/welcome_screen_img/
+    - assets/images/signIn_screen_img/
 
   #   - images/a_dot_ham.jpeg
 
