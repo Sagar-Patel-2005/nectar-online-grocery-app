@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter/material.dart';
+import 'package:new_nectar_ui_project/views/location/location_screen.dart';
 import 'package:new_nectar_ui_project/views/sign-in/signin_screen.dart';
 import 'package:new_nectar_ui_project/widgets/commonWidgets/common_btn.dart';
 
@@ -90,7 +91,9 @@ class LoginScreen extends StatelessWidget {
 
                 const SizedBox(height: 30),
 
-                CommonButton(text: "Log In", onPressed: (){}),
+                CommonButton(text: "Log In", onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => LocationScreen(),));
+                }),
 
                 const SizedBox(height: 20),
 
